@@ -8,6 +8,7 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css"> 
     <link href='http://fonts.googleapis.com/css?family=Raleway:900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="movie.css">
 
@@ -19,17 +20,30 @@
     <![endif]-->
   </head>
   <body>
-    <header>
-      
-    </header>
-    <div id="ts">
-      <img src="film_title_s.png" alt="">
-    </div>
-    <video loop="loop" autoplay="ture" id="bg" src="lucy_final_720.webm"></video>
-    <div id="title" class="hidden-xs">
-      <img  src="film_title.png" alt="">
+      <div id="box" class="center">
+        <img src="film_title.png" alt="" id="ts" class="center">
+        <p id="in">IN CINEMAS AUGUST 21</p>
+        <a href=""></a>
+        <button type="button" class="btn btn-primary btn-lg btnb">TRAILER</button>
+        <button type="button" class="btn btn-primary btn-lg btnb">STORY</button>
+        <button type="button" class="btn btn-primary btn-lg btnb">PHOTOS</button>
 
-      <p id="in">IN CINEMAS AUGUST 21</p>
+        <div class="social"> <img src="http://images.lucymovieintl.com/version-3/nz/images/social_bg.png">
+          <div class="socialcontent">
+            <a data-tracking='Site Social,Social Link Clicked,Facebook' href='https://www.facebook.com/paramountnz' target='_blank'><img src='http://images.lucymovieintl.com/version-3/nz/images/social-icons/fb.png' alt='Facebook'></a><a data-tracking='Site Social,Social Link Clicked,Twitter' href='https://twitter.com/paramountnz' target='_blank'><img src='http://images.lucymovieintl.com/version-3/nz/images/social-icons/tw.png' alt='Twitter'></a><a data-tracking='Site Social,Social Link Clicked,Instagram' href='http://instagram.com/LucyTheMovie' target='_blank'><img src='http://images.lucymovieintl.com/version-3/nz/images/social-icons/ig.png' alt='Instagram'></a><a data-tracking='Site Social,Social Link Clicked,YouTube' href='https://www.youtube.com/user/ParamountNZ' target='_blank'><img src='http://images.lucymovieintl.com/version-3/nz/images/social-icons/yt.png' alt='YouTube'></a><a data-tracking='Site Social,Social Link Clicked,Google+' href='https://plus.google.com/102043081475283232393/posts' target='_blank'><img src='http://images.lucymovieintl.com/version-3/nz/images/social-icons/gp.png' alt='Google'></a>
+    
+        </div>
+        
+      </div>
+
+
+
+      </div> <!-- <div id="box" class="center"> -->
+    
+    <video loop="loop" autoplay="ture" id="bg" src="lucy_final_720.webm" class="hidden-xs"></video>
+    
+
+      
     </div> <!-- #title-->
     
 
@@ -50,6 +64,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+    
+    <!-- Magnific Popup core JS file -->
+    <script src="magnific-popup/jquery.magnific-popup.js"></script>
     <script src="movie.js"></script>
   </body>
 </html>
