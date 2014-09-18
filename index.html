@@ -8,14 +8,8 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="magnific-popup/magnific-popup.css"> 
     <link href='http://fonts.googleapis.com/css?family=Raleway:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
-    <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
-    <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
     <link rel="stylesheet" href="movie.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -28,76 +22,56 @@
   <body>
       <div id="box" class="center">
         <img src="film_title.png" alt="" id="ts" class="center">
+        
         <p id="in">IN CINEMAS AUGUST 21</p>
-        <a href=""></a>
+        
         <button type="button" class="btn btn-primary btn-lg btnb" id="link1">TRAILER</button> 
         <button type="button" id="link2" class="btn btn-primary btn-lg btnb" >STORY</button>
-        <button type="button" class="btn btn-primary btn-lg btnb" id="image-gallery-button">PHOTOS</button>
+        <button type="button" class="btn btn-primary btn-lg btnb" id="link3">PHOTOS</button>
 
-        <div class="social"><img src="http://images.lucymovieintl.com/version-3/nz/images/social_bg.png">
-          <div class="socialcontent">
-            <a href='https://www.facebook.com/paramountnz' target='_blank'><img src='http://images.lucymovieintl.com/version-3/nz/images/social-icons/fb.png' alt='Facebook'></a>
-            <a href='https://twitter.com/paramountnz' target='_blank'><img src='http://images.lucymovieintl.com/version-3/nz/images/social-icons/tw.png' alt='Twitter'></a>
-            <a href='http://instagram.com/LucyTheMovie' target='_blank'><img src='http://images.lucymovieintl.com/version-3/nz/images/social-icons/ig.png' alt='Instagram'></a>
-            <a href='https://www.youtube.com/user/ParamountNZ' target='_blank'><img src='http://images.lucymovieintl.com/version-3/nz/images/social-icons/yt.png' alt='YouTube'></a>
-            <a href='https://plus.google.com/102043081475283232393/posts' target='_blank'><img src='http://images.lucymovieintl.com/version-3/nz/images/social-icons/gp.png' alt='Google'></a>
+        <div class="social">
+            <img src="http://images.lucymovieintl.com/version-3/nz/images/social_bg.png">
+                <div class="socialcontent">
+                    <a href='https://www.facebook.com/paramountnz' target='_blank'><img src='http://images.lucymovieintl.com/version-3/nz/images/social-icons/fb.png' alt='Facebook'></a>
+                    <a href='https://twitter.com/paramountnz' target='_blank'><img src='http://images.lucymovieintl.com/version-3/nz/images/social-icons/tw.png' alt='Twitter'></a>
+                    <a href='http://instagram.com/LucyTheMovie' target='_blank'><img src='http://images.lucymovieintl.com/version-3/nz/images/social-icons/ig.png' alt='Instagram'></a>
+                    <a href='https://www.youtube.com/user/ParamountNZ' target='_blank'><img src='http://images.lucymovieintl.com/version-3/nz/images/social-icons/yt.png' alt='YouTube'></a>
+                    <a href='https://plus.google.com/102043081475283232393/posts' target='_blank'><img src='http://images.lucymovieintl.com/version-3/nz/images/social-icons/gp.png' alt='Google'></a>
     
-        </div>
+                </div> <!-- .socialcontent -->
         
+      </div><!-- <div class="social"> -->
+
+      <div class="element_to_pop_up" id="pop1">
+        <a class="b-close">x<a/>
+        <iframe width="1280" height="720" src="http://www.youtube.com/embed/Um74eQTtQxU?autoplay=1&list=PLJDfbnm6ydhwmK14LWAFvNT3UspoPjmU-" frameborder="0" allowfullscreen></iframe>
       </div>
-      <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <iframe width="560" height="315" src="" frameborder="0" allowfullscreen autoplay="true" class="ifm"></iframe>
-  
+
+      <div class="element_to_pop_up" id="pop2">
+        <a class="b-close">x<a/>
+        <p>From La Femme Nikita and The Professional to The Fifth Element, writer/director Luc Besson has created some of the toughest, most memorable female action heroes in cinematic history. Now, Besson directs Scarlett Johansson in Lucy, an action-thriller that tracks a woman accidentally caught in a dark deal who turns the tables on her captors and transforms into a merciless warrior evolved beyond human logic.
+        Lucy also stars Academy Award® winner Morgan Freeman and is produced by Virginie Besson-Silla for EuropaCorp. Universal Pictures will distribute the movie worldwide, except for France, Benelux and China.</p>
       </div>
 
-    <div id="blueimp-gallery" class="blueimp-gallery">
-    <!-- The container for the modal slides -->
-    <div class="slides"></div>
-    <!-- Controls for the borderless lightbox -->
-    <h3 class="title"></h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
-    <!-- The modal dialog, which will be used to wrap the lightbox content -->
-    <div class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"></h4>
-                </div>
-                <div class="modal-body next"></div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default pull-left prev">
-                        <i class="glyphicon glyphicon-chevron-left"></i>
-                        Previous
-                    </button>
-                    <button type="button" class="btn btn-primary next">
-                        Next
-                        <i class="glyphicon glyphicon-chevron-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-
-
-
-    <div id="links">
-      <a href="img/Lucy-Gallery-01.jpg" title="" data-gallery></a>
-      <a href="img/Lucy-Gallery-02.jpg" title="" data-gallery></a>
-      <a href="img/Lucy-Gallery-03.jpg" title="" data-gallery></a>
-      <a href="img/Lucy-Gallery-04.jpg" title="" data-gallery></a>
-      <a href="img/Lucy-Gallery-05.jpg" title="" data-gallery></a>
-      <a href="img/Lucy-Gallery-06.jpg" title="" data-gallery></a>
-      <a href="img/Lucy-Gallery-07.jpg" title="" data-gallery></a>
-      <a href="img/Lucy-Gallery-08.jpg" title="" data-gallery></a>
+      <div class="element_to_pop_up" id="pop3">
+        <a class="b-close">x<a/>
+            <ul class="bxslider">
+                <li><img src="img/Lucy-Gallery-01.jpg" /></li>
+                <li><img src="img/Lucy-Gallery-02.jpg" /></li>
+                <li><img src="img/Lucy-Gallery-03.jpg" /></li>
+                <li><img src="img/Lucy-Gallery-04.jpg" /></li>
+                <li><img src="img/Lucy-Gallery-05.jpg" /></li>
+                <li><img src="img/Lucy-Gallery-06.jpg" /></li>
+                <li><img src="img/Lucy-Gallery-07.jpg" /></li>
+                <li><img src="img/Lucy-Gallery-08.jpg" /></li>
+            </ul>
+      </div>
       
-    </div>
+
+    
+
+
+    
 
 
 
@@ -131,17 +105,8 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script> 
-    
-    <!-- Magnific Popup core JS file -->
-    <script src="magnific-popup/jquery.magnific-popup.js"></script>
-    <script src="js/bootstrap-image-gallery.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-    <script src="js/bootstrap-image-gallery.min.js"></script>
+    <script src="jquery.bpopup.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
     <script src="movie.js"></script>
   </body>
 </html>

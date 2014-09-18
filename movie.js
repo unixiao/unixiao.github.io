@@ -1,20 +1,21 @@
-$(document).ready(function(){
+$(function() {
 
+    $('#link1').bind('click', function(e) {
+        e.preventDefault();
+        $('#pop1').bPopup();
+    });
 
-    $('#link1').click(function () {
-        var src = 'http://www.youtube.com/embed/Um74eQTtQxU?list=PLJDfbnm6ydhwmK14LWAFvNT3UspoPjmU-autoplay=1';
-        $('#myModal').modal('show');
-        $('#myModal iframe').attr('src', src);
+    $('#link2').bind('click', function(e) {
+        e.preventDefault();
+        $('#pop2').bPopup();
     });
 
     
 
-    $('#myModal button').click(function () {
-        $('#myModal iframe').removeAttr('src');
-    });
-    $('#image-gallery-button').on('click', function (event) {
-        event.preventDefault();
-        blueimp.Gallery($('#links a'), $('#blueimp-gallery').data());
+    $('#link3').bind('click', function(e) {
+        e.preventDefault();
+        $('#pop3').bPopup();
+        $('.bxslider').bxSlider();
 
     });
 

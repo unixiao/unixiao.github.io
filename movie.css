@@ -92,9 +92,23 @@ and (min-device-width : 320px)
         z-index: 9;
     }
 
-    .modal-content {
-        
+    .element_to_pop_up { 
+    
+    border:none;
+    color:#000;
+    display:none; 
+    padding:20px;
+    min-width:400px;
+    min-height: 180px;
     }
+    .b-close{
+    cursor:pointer;
+    position:absolute;
+    right:10px;
+    top:5px;
+    }
+
+    
 
     
 }
