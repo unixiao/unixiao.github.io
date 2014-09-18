@@ -1,6 +1,7 @@
+/* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
-and (max-device-width : 480px) {
+/*and (max-device-width : 480px) {*/
 
 
     
@@ -91,6 +92,10 @@ and (max-device-width : 480px) {
         z-index: 9;
     }
 
+    .modal-content {
+        
+    }
+
     
 }
 
@@ -162,70 +167,70 @@ and (max-device-width : 480px) {
 
 
 
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-        footer {
-        width: 100%;
-        min-width: 750px;
-        height: 47px;
-        position: fixed;
-        bottom: 0px;
-        z-index: 6;
-        text-align: center;
-        background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.8);
-    }
-    
-    
-    video#bg {
-        min-width: 100%;
-        min-height: 100%;
-        position: absolute;
-        overflow: hidden;
-        display: inline-block;
-        z-index: -100;
-        margin: 0;
-    
-    }
-    
-    
-    
-    body, html {
-        margin: 0px;
-        padding: 0px;
-        height: 100%;
-        width: 100%;
-        overflow: hidden; 
-    }
-    
-    #title {
-        height: 80px;
-        margin-left: 20px;
-        margin-top: 60px;
-        width: 294px;
-    }
-    
-    #in {
-        font-family: 'Raleway', sans-serif;
-        color: #56fff3;
-        letter-spacing: 6px;
-        position: relative;
-        top: 0;
-        font-size: 20px;
-        font-weight: 700;
-        width: 400px;
-    }
-    
-    #lis {
-        list-style: none;
-        padding: 0;
-    }
-    
-    #menu {
-        margin-top: 100px;
-        margin-left: 20px;
-    }
-}
+/*/* Desktops and laptops ----------- */
+/*@media only screen */
+/*and (min-width : 1224px) {*/
+        /*footer {*/
+        /*width: 100%;*/
+        /*min-width: 750px;*/
+        /*height: 47px;*/
+        /*position: fixed;*/
+        /*bottom: 0px;*/
+        /*z-index: 6;*/
+        /*text-align: center;*/
+        /*background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.8);*/
+    /*}*/
+    /**/
+    /**/
+    /*video#bg {*/
+        /*min-width: 100%;*/
+        /*min-height: 100%;*/
+        /*position: absolute;*/
+        /*overflow: hidden;*/
+        /*display: inline-block;*/
+        /*z-index: -100;*/
+        /*margin: 0;*/
+    /**/
+    /*}*/
+    /**/
+    /**/
+    /**/
+    /*body, html {*/
+        /*margin: 0px;*/
+        /*padding: 0px;*/
+        /*height: 100%;*/
+        /*width: 100%;*/
+        /*overflow: hidden; */
+    /*}*/
+    /**/
+    /*#title {*/
+        /*height: 80px;*/
+        /*margin-left: 20px;*/
+        /*margin-top: 60px;*/
+        /*width: 294px;*/
+    /*}*/
+    /**/
+    /*#in {*/
+        /*font-family: 'Raleway', sans-serif;*/
+        /*color: #56fff3;*/
+        /*letter-spacing: 6px;*/
+        /*position: relative;*/
+        /*top: 0;*/
+        /*font-size: 20px;*/
+        /*font-weight: 700;*/
+        /*width: 400px;*/
+    /*}*/
+    /**/
+    /*#lis {*/
+        /*list-style: none;*/
+        /*padding: 0;*/
+    /*}*/
+    /**/
+    /*#menu {*/
+        /*margin-top: 100px;*/
+        /*margin-left: 20px;*/
+    /*}*/
+/*}*/
 
 
 
